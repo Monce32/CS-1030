@@ -1,3 +1,4 @@
+# Determines whther you have three tails or three heads
 
 from random import randint
 
