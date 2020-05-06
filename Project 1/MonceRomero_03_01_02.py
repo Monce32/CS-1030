@@ -6,7 +6,7 @@ mil_per_gal = int(input("Enter a figure for miles per gallon. "))
 if mil_per_gal == 0 or mil_per_gal == '':
     exit()
 
-#Calculations for conerting miles/gallon into kilo/liter
+#Calculations for converting miles/gallon into kilo/liter
 kilometers = mil_per_gal * 1.61
 kilo_per_liter = round(kilometers / 3.79, 1)
 print("This is your input for miles per gallon: ", mil_per_gal)
