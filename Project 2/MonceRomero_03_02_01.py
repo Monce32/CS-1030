@@ -1,4 +1,4 @@
-
+# Calculates your current grade as well as your total GPA
 
 def main():
     print("Enter your grades and I will calculate your GPA")
